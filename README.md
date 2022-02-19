@@ -1,2 +1,2 @@
-# ecm252-2022
-Repositório para Linguagens de Programação II
+# Linguagens de Programação II
+Repositório criado para armazenar os programas criados durante a matéria de Linguagens de Programação II
