@@ -1,6 +1,7 @@
 // Declaração de variáveis  -> Não precisamos declarar tipo (compilador já sabe)
 const nome = "José" // Para string aspas simples ('') e duplas ("") tem o mesmo efeito
-const endereco = `Rua K, 12` // Usando crase podemos continuar a string em mais de uma linha
+const endereco = `Rua K,
+ 12` // Usando crase podemos continuar a string em mais de uma linha
 const sexo = 'M' // Se colocarmos a simples, a dupla pode ir dentro sem problema e vice-versa
 const idade = 27
 
@@ -12,6 +13,7 @@ a = "abc"
 Usando o const deixamos o valor constante, ou seja, não podemos alterar ao longo do programa, já o let pode ser reatribuído, ou seja, se puder reatribuir usar let,
  caso contrário usar const 
 */
+
  let b = 2
 b = 3 // CERTO
 
