@@ -32,7 +32,7 @@ console.log("Aprendendo " + linguagem)
 // Para executar com node só colocar -> node + nome_arquivo.js
 
 var idade = 18
-console.log("Oi, " + nome) // Como o nome não está declarado e usamos o var ele vai deixar como undefined, se usarmso o let ele vai quebrar direto
+console.log("Oi, " + nome) // Como o nome não está declarado e usamos o var ele vai deixar como undefined, se usarmos o let ele vai quebrar direto
 if (idade >= 18)
 {
     var nome = "João"
