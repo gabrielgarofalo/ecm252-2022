@@ -22,3 +22,24 @@ function map (v, f){
 
 console.log(map(['abcd', 'abc'], e => e.length)) // Deveria devolver [4, 3]
 
+function eAgora(){
+    let cont = 1
+    
+    function f1(){
+        console.log(cont)
+    }
+    cont++
+
+    function f2(){
+        console.log(cont)
+    }
+    // isso é um objeto JSON
+    return{f1, f2}
+}
+
+let res = eAgora()
+res.f1()
+res.f2()
+
+// JSON JavaScript Object Notation
+
