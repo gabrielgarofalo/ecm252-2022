@@ -1,0 +1,2 @@
+API: https://openweathermap.org/forecast5 
+Docs Pakcage: https://www.npmjs.com/

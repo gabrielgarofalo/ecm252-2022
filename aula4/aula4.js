@@ -25,6 +25,21 @@ axios.get(url)
     return res
 })
 .then(res => {
-    // return res.list
+    // return res.list)
     return res['list']
+})
+.then(res => {
+    for(let previsao of res){
+        console.log(`
+            Data: ${new Date(+previsao.dt * 1000).toLocaleTimeString()},
+            Temperatura Mínima: ${previsao.main.temp_min}\u00B0C,
+            Temperatura Máxima: ${previsao.main.temp_max}\u00B0C,
+            Umidade: ${previsao.main.humidity}%,
+            Descrição: ${previsao.weather[0].description}
+        `)
+    }
+})
+.then(res => {
+    // exibir a qtde de previsões que tem percepção humana de temperatura acima de 30
+
 })
