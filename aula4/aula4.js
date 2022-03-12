@@ -1,1 +1,0 @@
-https://api.openweathermap.org/data/2.5/forecast?q=Itu&appid=b65fa48e5e479549dfcb02c057a362f2
