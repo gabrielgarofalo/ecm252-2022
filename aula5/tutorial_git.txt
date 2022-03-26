@@ -1,1 +1,7 @@
 git init -> inicializa git
+ir no github e criar repositorio
+copiar o link do repositorio
+git status -s
+git remote add origin (link)
+git push origin
+para clonar apenas o conteudo sem a pasta: git clone (link https) .

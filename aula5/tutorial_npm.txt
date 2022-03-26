@@ -2,3 +2,4 @@ git init -y
 sempre adiconar o node_modules em um .gitignore
 npm install package --save (necessário para rodar)
 npm install package --save-dev (caso seja só em desenvolvimento)
+npm install baixa todas as dependecias depois do clone do git
