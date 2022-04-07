@@ -34,7 +34,7 @@ const res = valores.reduce((ac, v) => {
     return v % 2 == 1 ? ac + v: ac
 })
 console.log(res)
- É de alta ordem pois pode ser atríbuida a variável
+ É de alta ordem pois pode ser atríbuida a variável e depende da paridade (par ou ímpar)
  ---------------------------------------------------------------------------------------------
  Ex 5 
 
@@ -55,12 +55,12 @@ function f2(f){
 function f3(f){
     f()
     console.log('f3')
-    function f4(){
+    return function(){
         console.log('f4')
     }
 }
 f2(f1) // f2 f1
-f3(f1)() // erro -> f3 is not a function
+f3(f1)() // f1 f3 f4
 ---------------------------------------------------------------------------------------------
 Ex 7 
 
@@ -108,6 +108,7 @@ f()
 .then(res => res + 2)
 .then(res => res%2 == 1)
 .then(res => console.log(res)) // true
+Há quatro variáveis chamadas res. Elas possuem o mesmo nome e escopos distintos.
 ---------------------------------------------------------------------------------------------
 Ex 10
 
