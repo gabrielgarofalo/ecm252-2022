@@ -615,7 +615,7 @@ async function hello(nome) {
 const boasVindas = hello("João");
 console.log(boasVindas); // Promise
 boasVindas.then((res) => console.log(res)); // "Oi, João"
-*/
+
 function fatorial(n) {
     if (n < 0) return Promise.reject("Valor não pode ser negativo");
     let res = 1;
@@ -644,3 +644,4 @@ async function chamadaComAwait() {
     console.log(f2); //  Erro, não pode ser negativo
 }
 chamadaComAwait();
+*/
