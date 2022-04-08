@@ -463,7 +463,9 @@ const abrirArquivo = function (nomeArquivo) {
     fs.readFile(nomeArquivo, exibirConteudo);
 };
 abrirArquivo("arquivo.txt");
- 
+
+INFERNO DE CALLBACKS
+
 A ordem dos parâmetros de uma função callback varia. A função
 exibirConteudo do Bloco de Código 3.2.1, por exemplo, recebe um objeto
 com dados referentes a um possível erro e um objeto com os dados caso a
