@@ -34,7 +34,7 @@ const res = valores.reduce((ac, v) => {
     return v % 2 == 1 ? ac + v: ac
 })
 console.log(res)
- É de alta ordem pois pode ser atríbuida a variável e depende da paridade (par ou ímpar)
+ É de alta ordem pois recebe função como parâmetro arr(f, vi) sendo f uma função e depende da paridade (par ou ímpar)
  ---------------------------------------------------------------------------------------------
  Ex 5 
 
