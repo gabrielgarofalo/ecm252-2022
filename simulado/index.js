@@ -79,7 +79,7 @@ const f1 = (nome) => {
    }
     fs.readFile(nome, f2);
 };
-f1("arquivo.txt"); // 2 2, sem inferno de callbacks e fs so pede nome
+f1("arquivo.txt"); // 2 2, TEM inferno de callbacks e fs so pede nome
 ---------------------------------------------------------------------------------------------
 Ex 8
 
