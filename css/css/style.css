@@ -1,0 +1,29 @@
+/*h1{
+    color: yellow;
+}*/
+
+strong {
+    color: black;
+}
+
+#titulo{
+    color: yellow;
+}
+
+p#descricao{
+    text-align: center;
+}
+
+h1#titulo{
+    color: orchid;
+} /* Mais especifico, da overwrite no de cima*/
+
+.promocao{
+    text-align: center;
+    background-color: black;
+    color: red;
+}
+
+p.promocao{
+    background-color: orange;
+}
