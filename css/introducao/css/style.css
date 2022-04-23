@@ -1,6 +1,6 @@
 /*h1{
     color: yellow;
-}*/
+}
 
 strong {
     color: black;
@@ -16,7 +16,7 @@ p#descricao{
 
 h1#titulo{
     color: orchid;
-} /* Mais especifico, da overwrite no de cima*/
+}  Mais especifico, da overwrite no de cima
 
 .promocao{
     text-align: center;
@@ -31,4 +31,24 @@ p.promocao{
 p.promocao.nova{
     color: green;
     background-color: grey;
+}
+
+p#rodape.final-pagina{
+    background-color: beige;
+    text-align: right;
+    color: greenyellow;
+} 
+*/
+
+.novo-curso, .curso, #contato
+{
+    background-color: lightblue;
+}
+
+.novo-curso{
+    color: red;
+}
+
+.final-pagina{
+    color: darkblue
 }
