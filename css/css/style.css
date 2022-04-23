@@ -27,3 +27,8 @@ h1#titulo{
 p.promocao{
     background-color: orange;
 }
+
+p.promocao.nova{
+    color: green;
+    background-color: grey;
+}
