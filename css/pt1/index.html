@@ -1,0 +1,50 @@
+<html>
+    <head>
+        <title>Seletores Descendentes</title>
+        <style>
+            main > article > section > p.coordenadores{
+                color: red;
+                background-color:black;
+            }
+            main p{
+                color: yellow;
+            }
+            main > p{
+                background-color: lightcoral;
+            }
+            article p{
+                background-color: lightblue;
+                color: blue;
+            }
+            p{
+                color: red;
+            }
+            .coordenadores{
+                background-color: grey;
+            }
+        </style>
+    </head>
+    <body>
+
+        <main #id="principal">
+            <h1 id="titulo">lorem ipsum dolor sit amet.</h1>
+
+            <p id="descricao">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, dolores.</p>
+
+            <p class="promocao-nova">Nova Promoção</p>
+
+            <p>Cursos:</p>
+            <article>
+                <p class="novo-curso"> Medicina</p>
+                <p class="curso">Engenharia de computação</p>
+                <p class="curso">Farmácia</p>
+                <section>
+                    <p class="cordenadores">
+                        Coordenadores
+                    </p>
+                </section>
+            </article>
+        </main>
+
+    </body>
+</html>
